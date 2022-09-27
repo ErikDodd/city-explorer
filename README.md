@@ -33,4 +33,9 @@ Estimate of time needed to complete: 3 hours
 
 Start time: 1:15pm
 
-Finish time: _____
+Finish time: 6:15pm
+
+
+Attributions:
+
+- Special Thank You to Dustin for helping me with displaying the map and also being my partner for today's lab. He also helped me getting set-up with CSS.
