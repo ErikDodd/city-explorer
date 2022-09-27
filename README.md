@@ -27,7 +27,7 @@
 Lab 01 - Dustin Apodaca
 
 
-Name of feature: Lab01 -
+Name of feature: Lab06 -
 
 Estimate of time needed to complete: 3 hours
 
@@ -39,3 +39,13 @@ Finish time: 6:15pm
 Attributions:
 
 - Special Thank You to Dustin for helping me with displaying the map and also being my partner for today's lab. He also helped me getting set-up with CSS.
+
+Name of feature: Lab07
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 2:00 PM
+
+Finish time: _____
+
+Actual time needed to complete: _____
