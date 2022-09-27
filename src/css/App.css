@@ -1,0 +1,21 @@
+header {
+    background-color: #66A5AD;
+    size: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+};
+
+h1 {
+    margin: 0 auto;
+}
+
+main {
+    background-color: #07575B;
+};
+
+footer {
+    background-color: #003B46
+};

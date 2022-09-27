@@ -45,7 +45,7 @@ class Main extends React.Component {
     }
     render() {
         return (
-           <>
+           <main>
                 <CityForm
                     handleInput={this.handleInput}
                     handleSearch={this.handleSearch}
@@ -58,8 +58,7 @@ class Main extends React.Component {
                     location={this.state.location}
                     cityMap={this.state.cityMap}
                 />
-             
-           </> 
+           </main> 
         )
 
     }
