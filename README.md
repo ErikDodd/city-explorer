@@ -24,10 +24,11 @@
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-Lab 01 - Dustin Apodaca
-
+![Lab 6 Diagram](lab6diagram.jpg)
 
 Name of feature: Lab06 -
+
+Lab 06 Partner - Dustin Apodaca
 
 Estimate of time needed to complete: 3 hours
 
@@ -42,10 +43,14 @@ Attributions:
 
 Name of feature: Lab07
 
+Lab 7 Partner - Chris Fanucchi 
+
+![Lab 7 Diagram](lab7diagram.jpg)
+
 Estimate of time needed to complete: 3 hours
 
 Start time: 2:00 PM
 
-Finish time: _____
+Finish time: 6:00 PM
 
 Actual time needed to complete: _____
