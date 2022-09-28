@@ -51,6 +51,10 @@ Estimate of time needed to complete: 3 hours
 
 Start time: 2:00 PM
 
-Finish time: 6:00 PM
+Finish time: 9:30 PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 5.5 hours
+
+Attributions:
+
+Special Thank You to Ben Mills for helping me with lab 07. Rendering the weather data, helping me with the frontend and backend. 
