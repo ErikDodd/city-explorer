@@ -7,10 +7,10 @@ import "./css/App.css";
 
 class App extends React.Component {
 
-    render() {
-      return(
+  render() {
+    return (
       <>
-        <Header /> 
+        <Header />
         <Main />
         <Footer />
       </>

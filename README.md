@@ -24,10 +24,11 @@
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-Lab 01 - Dustin Apodaca
+![Lab 6 Diagram](lab6diagram.jpg)
 
+Name of feature: Lab06 -
 
-Name of feature: Lab01 -
+Lab 06 Partner - Dustin Apodaca
 
 Estimate of time needed to complete: 3 hours
 
@@ -39,3 +40,21 @@ Finish time: 6:15pm
 Attributions:
 
 - Special Thank You to Dustin for helping me with displaying the map and also being my partner for today's lab. He also helped me getting set-up with CSS.
+
+Name of feature: Lab07
+
+Lab 7 Partner - Chris Fanucchi 
+
+![Lab 7 Diagram](lab7diagram.jpg)
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 2:00 PM
+
+Finish time: 9:30 PM
+
+Actual time needed to complete: 5.5 hours
+
+Attributions:
+
+Special Thank You to Ben Mills for helping me with lab 07. Rendering the weather data, helping me with the frontend and backend. 
