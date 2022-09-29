@@ -47,6 +47,7 @@ class Main extends React.Component {
       this.setState({ errorMessage: error.message });
     }
     this.handleForecast();
+    this.handleMovie();
   };
   handleForecast = async () => {
     try {
