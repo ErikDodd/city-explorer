@@ -9,13 +9,13 @@ class CityCard extends React.Component {
       <>
         <Container>
           <Card className='my-4'>
-            <Card.Img variant="top" src={this.props.cityMap} />
             <Card.Body>
               <Card.Title>{this.props.location.display_name}</Card.Title>
               <Card.Text>
                 {this.props.location.lat}
                 {this.props.location.lon}
               </Card.Text>
+            <Card.Img variant="top" src={this.props.cityMap} />
             </Card.Body>
           </Card>
         </Container>
