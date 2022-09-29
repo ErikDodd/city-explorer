@@ -12,8 +12,8 @@ class WeatherCard extends React.Component {
           {this.props.weatherArr.map((e, i) => (
             <Card key={i} className='my-4'>
               <Container>
-                  <p>Date: {e.datetime}</p>
-                  <p>Temperature: {e.temp}</p>
+                <p>Date: {e.datetime}</p>
+                <p>Temperature: {e.temp}</p>
               </Container>
             </Card>
           )

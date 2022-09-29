@@ -15,7 +15,7 @@ class CityCard extends React.Component {
                 {this.props.location.lat}
                 {this.props.location.lon}
               </Card.Text>
-            <Card.Img variant="top" src={this.props.cityMap} />
+              <Card.Img variant="top" src={this.props.cityMap} />
             </Card.Body>
           </Card>
         </Container>
