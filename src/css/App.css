@@ -1,11 +1,11 @@
 header {
-    background-color: #66A5AD;
+    background-color: #07575B;
     size: 50px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
-    align-items: center
+    /* align-items: center */
 };
 
 h1 {
@@ -13,7 +13,11 @@ h1 {
 }
 
 main {
-    background-color: #07575B;
+    background-color: #66A5AD;
+};
+
+div {
+    background-color: #C4DFE6;
 };
 
 footer {

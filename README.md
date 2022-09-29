@@ -11,8 +11,6 @@
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
-
-
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
@@ -36,14 +34,13 @@ Start time: 1:15pm
 
 Finish time: 6:15pm
 
-
 Attributions:
 
 - Special Thank You to Dustin for helping me with displaying the map and also being my partner for today's lab. He also helped me getting set-up with CSS.
 
 Name of feature: Lab07
 
-Lab 7 Partner - Chris Fanucchi 
+Lab 7 Partner - Chris Fanucchi
 
 ![Lab 7 Diagram](lab7diagram.jpg)
 
@@ -57,4 +54,22 @@ Actual time needed to complete: 5.5 hours
 
 Attributions:
 
-Special Thank You to Ben Mills for helping me with lab 07. Rendering the weather data, helping me with the frontend and backend. 
+Special Thank You to Ben Mills for helping me with lab 07. Rendering the weather data, helping me with the frontend and backend.
+
+Name of feature: Lab08
+
+Partners: Ben Lieberman, Michael Kancov
+
+![Lab 8 Diagram](lab8diagram.jpg)
+
+Estimate of time needed to complete: 3.5 - 4 hours
+
+Start time: 2:30 PM
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+Special thank you to Tammy Do for helping me debug my backend and solve an issue that was creating a server error.
+
+Special thank you to Ben Mills for helping me rendering the weather data on my front end. Just needed to adjust localhost3000 to 3001 and also adjust something in the weather card.
