@@ -3,6 +3,7 @@ import axios from 'axios';
 import CityForm from './CityForm';
 import CityCard from './CityCard';
 import WeatherCard from './WeatherCard';
+import MovieCard from './MovieCard';
 
 
 class Main extends React.Component {
@@ -15,7 +16,7 @@ class Main extends React.Component {
       errorMessage: '',
       cityMap: '',
       weatherArr: [],
-
+      movieArray: [],
     };
   }
   handleInput = (e) => {
@@ -58,8 +59,16 @@ class Main extends React.Component {
       this.setState({ error: true });
       this.setState({ errorMessage: error.message });
     }
-
-
+  };
+  handleMovie = async () => {
+    try {
+      const urlMovies = `http://localhost:3001/movies?searchQuery=${this.state.searchQuery}`;
+      const movieUrlResponse = await axios.get(urlMovies);
+      this.setState({movieArray: movieUrlResponse.data});
+    } catch {
+      this.setState({ error: true });
+      this.setState({ errorMessage: 'Oh no. There has been an error!' });
+    }
   };
 
   render() {
@@ -71,7 +80,6 @@ class Main extends React.Component {
           location={this.state.location}
           error={this.state.error}
           errorMessage={this.state.errorMessage}
-
         />
         <CityCard
           location={this.state.location}
@@ -80,11 +88,13 @@ class Main extends React.Component {
         <WeatherCard
           weatherArr={this.state.weatherArr}
         />
+        <MovieCard
+          movieArray={this.state.movieArray}
+        />
       </main>
     );
 
   }
 }
-
 
 export default Main;

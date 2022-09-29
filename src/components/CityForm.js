@@ -15,18 +15,6 @@ class CityForm extends React.Component {
               <Form.Label>Location</Form.Label>
               <Form.Control onChange={this.props.handleInput} type="text" placeholder="Search for a City" />
               <Form.Text className="text-muted">
-                {/* {
-                                            this.props.location.display_name &&
-                                            <>
-                                                <h2>The City is {this.props.location.display_name}</h2>
-                                                <h2>The lat is {this.props.location.lat}</h2>
-                                                <h2>The lon is {this.props.location.lon}</h2>
-                                            </>
-                                        }
-                                        {
-                                            this.props.error &&
-                                            <h2>Oh no! {this.props.errorMessage} </h2>
-                                        } */}
               </Form.Text>
             </Form.Group>
             <Button onClick={this.props.handleSearch} variant="primary" type="submit">
@@ -38,4 +26,17 @@ class CityForm extends React.Component {
     );
   }
 }
+
+{/* {
+                                            this.props.location.display_name &&
+                                            <>
+                                                <h2>The City is {this.props.location.display_name}</h2>
+                                                <h2>The lat is {this.props.location.lat}</h2>
+                                                <h2>The lon is {this.props.location.lon}</h2>
+                                            </>
+                                        }
+                                        {
+                                            this.props.error &&
+                                            <h2>Oh no! {this.props.errorMessage} </h2>
+                                        } */}
 export default CityForm;
