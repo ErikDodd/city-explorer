@@ -17,6 +17,10 @@ main {
     background-color: #66A5AD;
 };
 
+p {
+    font-weight: bold;
+};
+
 div {
     background-color: #C4DFE6;
 };
