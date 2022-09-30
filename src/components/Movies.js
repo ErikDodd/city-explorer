@@ -9,7 +9,7 @@ class Movies extends React.Component {
     return (
       <>
         <Container>
-          <Card key={this.props.i} className='my-4'>
+          <Card key={this.props.key} className='my-4'>
             <Container>
               <p>Title: {this.props.movie.title}</p>
               <p>Overview: {this.props.movie.overview}</p>

@@ -9,8 +9,8 @@ class MovieCard extends React.Component {
     return (
       <>
         <Container>
-          {this.props.movieArray.map((e, i) => (
-            <Movies i={i} movie={e} />
+          {this.props.movieArray.map((element) => (
+            <Movies key={element.id} movie={element} />
           )
           )};
         </Container>

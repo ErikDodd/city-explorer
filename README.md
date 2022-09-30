@@ -73,3 +73,15 @@ Actual time needed to complete: 5 hours
 Special thank you to Tammy Do for helping me debug my backend and solve an issue that was creating a server error.
 
 Special thank you to Ben Mills for helping me rendering the weather data on my front end. Just needed to adjust localhost3000 to 3001 and also adjust something in the weather card.
+
+Name of feature: Lab09
+
+Partners: Maximo Vicente Mejia
+
+Estimate of time needed to complete: 2-3 hours
+
+Start time: 3:00pm
+
+Finish time: 6:00pm
+
+Actual time needed to complete: 3pm
