@@ -1,7 +1,8 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import WeatherDay from './WeatherDay';
+// import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 class WeatherCard extends React.Component {
 
@@ -9,13 +10,9 @@ class WeatherCard extends React.Component {
     return (
       <>
         <Container >
-          {this.props.weatherArr.map((e, i) => (
-            <Card key={i} className='my-4'>
-              <Container>
-                <p>Date: {e.datetime}</p>
-                <p>Temperature: {e.temp}</p>
-              </Container>
-            </Card>
+          {this.props.weatherArr.map((e,i) => (
+            <WeatherDay i={i} day={e} />
+            
           )
           )}
         </Container>
