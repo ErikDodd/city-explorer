@@ -27,16 +27,4 @@ class CityForm extends React.Component {
   }
 }
 
-{/* {
-                                            this.props.location.display_name &&
-                                            <>
-                                                <h2>The City is {this.props.location.display_name}</h2>
-                                                <h2>The lat is {this.props.location.lat}</h2>
-                                                <h2>The lon is {this.props.location.lon}</h2>
-                                            </>
-                                        }
-                                        {
-                                            this.props.error &&
-                                            <h2>Oh no! {this.props.errorMessage} </h2>
-                                        } */}
 export default CityForm;

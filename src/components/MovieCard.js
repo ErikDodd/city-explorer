@@ -10,6 +10,7 @@ class MovieCard extends React.Component {
       <>
         <Container>
           {this.props.movieArray.map((e, i) => (
+            
             <Card key={i} className='my-4'>
               <Container>
                 <p>{e.title}</p>
