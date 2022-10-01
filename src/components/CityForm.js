@@ -17,7 +17,7 @@ class CityForm extends React.Component {
               <Form.Text className="text-muted">
               </Form.Text>
             </Form.Group>
-            <Button onClick={this.props.handleSearch} variant="primary" type="submit">
+            <Button onClick={this.props.handleSearch} variant='primary' style={{ boxShadow: "5px 5px 3px rgba(46, 46, 46, 0.62)" }} type="submit">
               Submit
             </Button>
           </Form>

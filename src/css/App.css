@@ -3,9 +3,9 @@ header {
     size: 50px;
     margin: 0 auto;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     justify-content: space-between;
-    /* align-items: center */
+    align-items: center
 };
 
 h1 {
@@ -21,7 +21,7 @@ p {
     font-weight: bold;
 };
 
-div {
+.container {
     background-color: #C4DFE6;
 };
 
